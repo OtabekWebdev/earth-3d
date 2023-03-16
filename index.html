@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script async src="./es-module-shims.js"></script>
+    <title>by Otash360</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #bg {
+        /* position: absolute; */
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bg">
+      <canvas id="c"></canvas>
+    </div>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./build/three.module.js",
+          "orbit": "./build/OrbitControls.js"
+        }
+      }
+    </script>
+    <!-- <script src="./build/three.js"></script> -->
+    <!-- <script src="./build/controls/OrbitControls.js"></script> -->
+    <script async src="./index.js" type="module"></script>
+  </body>
+</html>
