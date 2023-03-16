@@ -1,4 +1,4 @@
-# earth-3d
+## earth-3d
 
-# View my Project
+# Loyiham ko'rinishi // View my Project
 ![View](https://github.com/OtabekWebdev/earth-3d/blob/main/img/view.png)
