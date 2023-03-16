@@ -27,7 +27,7 @@ const cloud = new THREE.Mesh(
       "./img/cloud.jpg"
     ),
     displacementBias: 0,
-    displacementScale: 1,
+    displacementScale: 0.1,
     transparent: true,
   })
 );
